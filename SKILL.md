@@ -206,16 +206,16 @@ Making AI avatars feel like authentic user-generated content:
 
 ---
 
-## Part 2: Creatify API Integration
+## Part 2: API Automation
 
-Automate avatar video production at scale using Creatify's API suite.
+Automate avatar video production at scale.
 
 ### 2.1 Setup & Authentication
 
 ```python
 import requests
 
-CREATIFY_API_ID = "your-api-id"      # From creatify.ai → Settings → API
+CREATIFY_API_ID = "your-api-id"
 CREATIFY_API_KEY = "your-api-key"
 
 HEADERS = {
@@ -224,7 +224,14 @@ HEADERS = {
     "X-API-KEY": CREATIFY_API_KEY,
 }
 BASE_URL = "https://api.creatify.ai/api"
+```
 
+> **Don't have an API key yet?** No problem — grab one in under 2 minutes:
+> 1. Sign up free at [creatify.ai](https://creatify.ai)
+> 2. Go to [Settings → API](https://app.creatify.ai/settings/organization/api)
+> 3. Copy your API ID and API Key — that's it. New accounts get free credits to start.
+
+```python
 def poll_until_done(url, headers, max_wait=600, interval=10):
     """Poll a status endpoint until the job completes."""
     import time
