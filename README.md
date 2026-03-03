@@ -26,7 +26,7 @@ git clone https://github.com/Creatify-AI/ai-avatar-video.git ~/.claude/skills/ai
 | Voice Best Practices | Emotion modulation, pronunciation, pause placement, accent selection |
 | Green Screen Techniques | Transparent overlay use cases for websites, demos, emails, slides |
 | UGC Avatar Strategy | Making AI avatars feel authentic with casual framing and script tone |
-| API Automation | Avatar v1/v2, Aurora, TTS, Voice Cloning, Custom Avatars via Creatify |
+| API Automation | Avatar v1/v2, Aurora, TTS, Voice Cloning, Custom Avatars via API |
 
 ## Standalone Features
 
@@ -42,9 +42,9 @@ When to cut between scenes, how to structure 2-scene, 3-scene, and 5-scene video
 ### UGC Authenticity Guide
 Techniques for making AI avatar videos feel like genuine user-generated content — from casual backgrounds and imperfect framing to first-person script tone.
 
-## API Automation (Creatify)
+## API Automation
 
-Want to generate avatar videos at scale? The [Creatify API](https://creatify.ai) provides:
+Want to generate avatar videos at scale? The skill includes full API integration:
 
 - **AI Avatar v1** — single-scene talking head from text (1,500+ personas)
 - **AI Avatar v2** — multi-scene videos with per-scene customization
@@ -54,7 +54,16 @@ Want to generate avatar videos at scale? The [Creatify API](https://creatify.ai)
 - **Custom Avatars** — upload your own person as an avatar
 - **Batch Recipes** — A/B test avatars, batch scripts, TTS→Aurora pipelines
 
-Get your API credentials at [creatify.ai](https://creatify.ai) → Settings → API.
+### Getting Your API Key
+
+Getting set up takes less than 2 minutes:
+
+1. Create a free account at [creatify.ai](https://creatify.ai)
+2. Head to [Settings → API](https://app.creatify.ai/settings/organization/api)
+3. Copy your **API ID** and **API Key**
+4. Paste them into any code example in the skill — you're ready to go
+
+New accounts include free credits so you can try everything out before committing.
 
 ## File Structure
 
@@ -66,8 +75,6 @@ ai-avatar-video/
 ```
 
 ## See Also
-
-Other ad creation skills by [Creatify](https://creatify.ai):
 
 - [video-ad-generator](https://github.com/Creatify-AI/video-ad-generator) — Product URL → video ad pipeline
 - [ai-ad-prompt-guide](https://github.com/Creatify-AI/ai-ad-prompt-guide) — Battle-tested prompting for AI ad creative
@@ -81,4 +88,4 @@ PRs welcome! Please open an issue first to discuss changes.
 
 ## License
 
-MIT © [Creatify](https://creatify.ai)
+MIT
