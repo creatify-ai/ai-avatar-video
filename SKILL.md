@@ -4,6 +4,10 @@ description: |
   Complete AI avatar and talking-head video toolkit. Includes script writing for talking-head content, persona selection frameworks, multi-scene composition, voice/audio best practices, green screen techniques, and UGC-style authenticity guides. Integrates with Creatify API for AI Avatar v1/v2, Aurora, Text-to-Speech, Custom Avatars, and Voice Cloning.
 
   Use when: "avatar video", "talking head", "AI spokesperson", "lip sync", "UGC video", "Aurora", "text to speech", "voice clone", "AI presenter", "lipsync", "custom avatar", "green screen avatar", "AI narrator", "spokesperson video", "script for avatar", "multi-scene video", "TTS", "voiceover", "AI talking head", or any AI avatar/talking-head task.
+license: MIT
+metadata:
+  author: creatify-ai
+  version: "1.0"
 ---
 
 # AI Avatar Video
